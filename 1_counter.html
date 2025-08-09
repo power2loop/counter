@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="w-[100vw] h-[100vh]  flex flex-col items-center justify-center bg-sky-300">
+        <div class="border-2 border-zinc-200 px-10 py-20 rounded-lg bg-red-400">
+            <div class="text-2xl font-bold justify-center pb-10"> Increment and Decrement</div>
+
+            <div class="bg-white flex items-center justify-center text-2xl  rounded-sm   ">
+
+                <button onclick="decrement()" class="border-r-3 border-[#bfbfbf]"><i
+                        class="fa-solid fa-minus px-1 mr-7"></i></button>
+
+                <div id="counter" class="font-bold px-10 py-2 ">0</div>
+                <button onclick="increment()" class="border-l-3 border-[#bfbfbf]"><i
+                        class="fa-solid fa-plus px-1 ml-7"></i></button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="1_counter.js"></script>
+</body>
+
+</html>
